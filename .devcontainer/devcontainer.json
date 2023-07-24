@@ -6,16 +6,23 @@
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {			
+			"settings": {
+				"files.associations": {
+					"*.md": "markdoc"
+				  }
+			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"yzhang.markdown-all-in-one",
 				"streetsidesoftware.code-spell-checker",
 				"DavidAnson.vscode-markdownlint",
 				"shd101wyy.markdown-preview-enhanced",
-				"bierner.github-markdown-preview"
+				"bierner.github-markdown-preview",
+				"stripe.markdoc-language-support"
 			]
 		}
 	},
+	
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
